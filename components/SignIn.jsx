@@ -20,10 +20,10 @@ const CreateAccount = () => {
     return (
         <div className="absolute  top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-2xl w-[250px] h-[300px] bg-gray-200 flex flex-col items-center justify-center p-2">
             <div className='flex flex-col items-center justify-center pb-3 space-y-5'>
-                <div className='border-orange-400 border-b-[3px]'>
+                <div className='border-teal-400 border-b-[3px]'>
                     <input type="email" id='email' className="text-black appearance-none bg-transparent border-none w-full mr-3 py-1 px-2 leading-tight focus:outline-none placeholder:text-black" placeholder="Email"></input>
                 </div>
-                <div className='border-orange-400 border-b-[3px]'>
+                <div className='border-teal-400 border-b-[3px]'>
                     <input minLength={6} type="password" id='password' className="text-black appearance-none bg-transparent border-none w-full mr-3 py-1 px-2 leading-tight focus:outline-none placeholder:text-black" placeholder="Password"></input>
                 </div>
             </div>
@@ -36,7 +36,7 @@ const CreateAccount = () => {
                 </button>
             </div>
             <div className="flex items-center justify-center w-52">
-                <span className="p-2 text-orange-400 mb-1">OR</span>
+                <span className="p-2 text-teal-400 mb-1">OR</span>
              </div>
             <div className='rounded-xl border-[3px] border-black p-2 flex hover:animate-none  translation-all duration-[0.3s] z-10'>
                 <button onClick={()=>{handleSignInRedirect()}} className='text-black embed-black flex group items-center justify-center'>
